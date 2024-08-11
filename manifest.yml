@@ -1,0 +1,5 @@
+name: netlify-plugin-redirect-with-auth
+inputs:
+  - name: redirects
+    description: An array of redirect objects. Each object has a 'from' URL and a 'to' URL
+    required: true
