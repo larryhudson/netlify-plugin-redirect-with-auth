@@ -29,6 +29,14 @@ package = "netlify-plugin-redirect-with-auth"
  ]
 ```
 
+3. Set the `NETLIFY_REDIRECT_AUTH_HEADER` environment variable in your Netlify site settings:
+
+   - Go to your Netlify site dashboard
+   - Navigate to Site settings > Build & deploy > Environment
+   - Add a new environment variable:
+     - Key: `NETLIFY_REDIRECT_AUTH_HEADER`
+     - Value: Your desired authorization header (e.g., `Bearer your-token-here`)
+
 ## Configuration
 
 ### Environment Variables
