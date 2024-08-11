@@ -21,9 +21,13 @@ npm install netlify-plugin-redirect-with-auth
 ```toml
 [[plugins]]
 package = "netlify-plugin-redirect-with-auth"
-```
 
-Note: You must install the plugin as an npm dependency before adding it to your `netlify.toml` file.
+  [plugins.inputs]
+  redirects = [
+    { from = "/submit", to = "https://api.example.com/submit" },
+    { from = "/api/*", to = "https://api.example.com/:splat" }
+ ]
+```
 
 ## Configuration
 
