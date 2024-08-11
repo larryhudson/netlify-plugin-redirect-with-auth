@@ -4,7 +4,7 @@ This Netlify build plugin allows you to add redirects with authentication header
 
 ## Features
 
-- Adds redirects with custom authentication headers
+- Adds redirects with custom authentication headers - header is set in an environment variable, separate from the code in your repo
 - Works for both build and development environments
 - Configurable through the `netlify.toml` file
 
@@ -35,8 +35,8 @@ package = "netlify-plugin-redirect-with-auth"
 
   [plugins.inputs]
   redirects = [
-    { from = "/api/*", to = "https://api.example.com/:splat" },
-    { from = "/app/*", to = "https://app.example.com/:splat" }
+    { from = "/submit", to = "https://api.example.com/submit" },
+    { from = "/api/*", to = "https://api.example.com/:splat" }
   ]
 ```
 
