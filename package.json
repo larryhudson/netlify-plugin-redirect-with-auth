@@ -1,0 +1,25 @@
+{
+  "name": "netlify-plugin-redirect-with-auth",
+  "version": "1.0.0",
+  "description": "Add redirects with authorization header set in env variable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larryhudson/netlify-plugin-redirect-with-auth.git"
+  },
+  "keywords": [
+    "netlify",
+    "plugin",
+    "redirect",
+    "auth"
+  ],
+  "author": "Larry Hudson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larryhudson/netlify-plugin-redirect-with-auth/issues"
+  },
+  "homepage": "https://github.com/larryhudson/netlify-plugin-redirect-with-auth#readme"
+}
