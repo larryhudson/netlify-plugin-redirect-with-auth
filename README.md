@@ -10,12 +10,20 @@ This Netlify build plugin allows you to add redirects with authentication header
 
 ## Installation
 
-To use this plugin, add it to your `netlify.toml` file:
+1. First, install the plugin as an npm dependency:
+
+```bash
+npm install netlify-plugin-redirect-with-auth
+```
+
+2. Then, add the plugin to your `netlify.toml` file:
 
 ```toml
 [[plugins]]
 package = "netlify-plugin-redirect-with-auth"
 ```
+
+Note: You must install the plugin as an npm dependency before adding it to your `netlify.toml` file.
 
 ## Configuration
 
